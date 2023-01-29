@@ -6,14 +6,46 @@
     <script type="text/javascript" id="MathJax-script" async
     src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
     <style>
-        h1 {
-            color: red;
+        @font-face {
+            font-family: "Computer Modern";
+            src: url('http://mirrors.ctan.org/fonts/cm-unicode/fonts/otf/cmunss.otf');
         }
+    @font-face {
+        font-family: "Computer Modern";
+        src: url('http://mirrors.ctan.org/fonts/cm-unicode/fonts/otf/cmunsx.otf');
+        font-weight: bold;
+    }
+    @font-face {
+        font-family: "Computer Modern";
+        src: url('http://mirrors.ctan.org/fonts/cm-unicode/fonts/otf/cmunsi.otf');
+        font-style: italic, oblique;
+    }
+    @font-face {
+        font-family: "Computer Modern";
+        src: url('http://mirrors.ctan.org/fonts/cm-unicode/fonts/otf/cmunbxo.otf');
+        font-weight: bold;
+        font-style: italic, oblique;
+    }
+
+    body {
+        font-family: "Computer Modern", sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+    .main {
+        background-color: rgb(255, 235, 211);
+        width: 50%;
+    }
     </style>
 </head>
 <body>
-    <h1>Section Title</h1>
-    <p>When \(a \ne 0\), there are two solutions to \(ax^2 + bx + c = 0\) and they are
-    $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$</p>
+    <div class="main">
+        <h1>Section Title</h1>
+        <p>When \(a \ne 0\), there are two solutions to \(ax^2 + bx + c = 0\) and they are
+        $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$</p>
+
+        <p style="font-size: 100px;">Ich liebe mein Bebi Kay.</p>
+        <p>-- Bruno</p>
+    </div>
 </body>
 </html>
