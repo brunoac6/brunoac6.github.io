@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Konjugation deutscher Verben im Präsens</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Konjugation deutscher Verben im Präsens</h1>
+    </header>
+    <main>
+        <article>
+            <section>
+                <h2>Einführung</h2>
+                <p class="dropcap">Im Deutschen folgen regelmäßige Verben einem vorhersehbaren Muster im Präsens. Das Verständnis dieser Muster ist entscheidend für die effektive Kommunikation und Beherrschung der Sprache.</p>
+            </section>
+            <section>
+                <h2>Konjugation regelmäßiger Verben</h2>
+                <p class="dropcap">Regelmäßige Verben im Deutschen werden konjugiert, indem man die Infinitivendung (-en oder -n) entfernt und die passenden Präsensendungen hinzufügt. Hier ist das Muster:</p>
+                <ul>
+                    <li>ich -e</li>
+                    <li>du -st</li>
+                    <li>er/sie/es -t</li>
+                    <li>wir -en</li>
+                    <li>ihr -t</li>
+                    <li>sie/Sie -en</li>
+                </ul>
+                <p>Lassen Sie uns die Konjugation des Verbs <em>kommen</em> betrachten.</p>
+            </section>
+            <section>
+                <h2>Konjugation von "kommen"</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Pronomen</th>
+                            <th>Konjugation</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>ich</td>
+                            <td>komme</td>
+                        </tr>
+                        <tr>
+                            <td>du</td>
+                            <td>kommst</td>
+                        </tr>
+                        <tr>
+                            <td>er/sie/es</td>
+                            <td>kommt</td>
+                        </tr>
+                        <tr>
+                            <td>wir</td>
+                            <td>kommen</td>
+                        </tr>
+                        <tr>
+                            <td>ihr</td>
+                            <td>kommt</td>
+                        </tr>
+                        <tr>
+                            <td>sie/Sie</td>
+                            <td>kommen</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+            <a href="multi.html">Multimodality Tests</a>
+            <section>
+                <h2>Quiz zur Überprüfung</h2>
+                <p>Wählen Sie die richtige Konjugation für das Pronomen "sie" (Plural):</p>
+                <form id="quiz">
+                    <label>
+                        <input type="radio" name="verb" value="kommt" /> kommt
+                    </label><br>
+                    <label>
+                        <input type="radio" name="verb" value="kommen" /> kommen
+                    </label><br>
+                    <label>
+                        <input type="radio" name="verb" value="kommst" /> kommst
+                    </label><br>
+                    <button type="button" onclick="checkAnswer()">Antwort überprüfen</button>
+                    <p id="result"></p>
+                </form>
+            </section>
+        </article>
+    </main>
+</body>
+</html>
